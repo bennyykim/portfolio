@@ -1,0 +1,219 @@
+:root {
+    --green: #337800;
+    --yellow: #ffc500;
+    --blue: #6599ff;
+    --light: #d4e6f7;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--light);
+}
+
+header {
+    background-color: var(--green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 300%;
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    font-size: 200%;
+    color: var(--white);
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+.top a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#info {
+    border-bottom: 2px solid var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#info p {
+    border: 2px solid var(--black);
+    background-color: var(--yellow);
+    border-radius: 10% 3%;
+    font-size: 120%;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+#info img {
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    margin: 40px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--yellow);
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects a {
+    text-decoration: none;
+}
+
+#hero {
+    border: 3px solid gray;
+    border-radius: 30px;
+    width: 70%;
+    height: 300px;
+    padding: 30px;
+    margin: 30px 15%;
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/heroes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+.ben {
+    position: relative;
+    color: var(--white);
+    text-shadow: 3px 3px var(--black);
+    font-size: 180%;
+    top: 200px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6 {
+    border: 3px solid gray;
+    border-radius: 30px;
+    width: 30%;
+    height: 200px;
+    padding: 30px;
+    margin: 30px 5%;
+}
+
+#card1 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/dart.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+#card2 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/boomerang.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+ 
+#card3 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/ninja.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+#card4 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/wizard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+#card5 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/sniper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+#card6 {
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/EngineerMonkey.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+}
+
+.title {
+    position: relative;
+    color: var(--white);
+    text-shadow: 3px 3px var(--black);
+    font-size: 180%;
+    top: 100px;
+}
+
+footer {
+    background-color: var(--green);
+    font-size: 200%;
+    text-align: right;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.bottom {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+
+#hero:hover, #card1:hover, #card2:hover, #card3:hover, #card4:hover, #card5:hover, #card6:hover {
+    box-shadow: inset 0px 0px 8px var(--black), 0 0 15px var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .top {
+        display: block;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info p {
+        width: 80%;
+    }
+
+    #card1, #card2, #card3, #card4, #card5, #card6 {
+        width: 70%;
+    }
+
+    .bottom {
+        display: block;
+        text-align: left;
+    }
+}
