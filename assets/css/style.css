@@ -1,6 +1,6 @@
 :root {
-    --green: #337800;
-    --yellow: #ffc500;
+    --green: #438316;
+    --yellow: #eecb57;
     --blue: #6599ff;
     --light: #d4e6f7;
     --white: #ffffff;
@@ -88,7 +88,7 @@ h1 {
     height: 300px;
     padding: 30px;
     margin: 30px 15%;
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/heroes.jpg);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/charitylocator.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,8 +97,8 @@ h1 {
 
 .ben {
     position: relative;
-    color: var(--white);
-    text-shadow: 3px 3px var(--black);
+    color: rgb(150, 150, 150);
+    text-shadow: 2px 2px var(--black);
     font-size: 180%;
     top: 200px;
 }
@@ -113,7 +113,7 @@ h1 {
 }
 
 #card1 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/dart.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/passwordgen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -121,7 +121,7 @@ h1 {
 }
 
 #card2 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/boomerang.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/workdayscheduler.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ h1 {
 }
  
 #card3 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/ninja.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/notavailable.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -137,7 +137,7 @@ h1 {
 }
 
 #card4 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/wizard.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/notavailable.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +145,7 @@ h1 {
 }
 
 #card5 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/sniper.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/notavailable.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -153,7 +153,7 @@ h1 {
 }
 
 #card6 {
-    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/EngineerMonkey.png);
+    background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../images/notavailable.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,8 +162,8 @@ h1 {
 
 .title {
     position: relative;
-    color: var(--white);
-    text-shadow: 3px 3px var(--black);
+    color: rgb(150, 150, 150);
+    text-shadow: 2px 2px var(--black);
     font-size: 180%;
     top: 100px;
 }
